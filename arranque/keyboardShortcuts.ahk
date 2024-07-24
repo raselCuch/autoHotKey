@@ -14,3 +14,4 @@
 ^!1::Run "D:\cursos" ; 1
 ^!Z::Run "D:\Descargas" ; 1
 ^!2::Run "C:\Users\Pc\Desktop\macros" ; 2
+^!c::Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://chatgpt.com/?model=auto"')
