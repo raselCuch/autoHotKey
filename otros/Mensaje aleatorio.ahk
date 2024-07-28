@@ -4,12 +4,17 @@ SendMode("Input")
 
 ; Define el array de mensajes
 messages := [
-    "Con sangre en la mirada, `ntenle desprecio al rival. `nAl rival le tienes que destrozar.",
-    "Perdonaré que falles, `npero no que no te esfuerces.",
-    ;"El Barça de Guardiola tenía mala ostia.",
-    "Configuraste teclado, mouse y laptop para programar mejor.",
-    "Si algo no entiendes, ChatGPT papi tranqui.",
-    "Mejoraste tu setup para estudiar mejor."
+    "Con sangre en la mirada, `ntenle desprecio al rival. Al rival le tienes que destrozar. 😡",
+    "Con sangre en la mirada, `ntenle desprecio al rival. Al rival le tienes que destrozar. 😡",
+    "Perdonaré que falles, `npero no que no te esfuerces. 💪",
+    "El Barça de Guardiola tenía mala ostia. ⚽",
+    "Configuraste teclado, mouse y laptop para programar mejor. 💻",
+    "Si algo no entiendes, ChatGPT, papi tranqui. 🤖😎",
+    "Como estudiaba el Rasel del pasado, ese curso es capaz de aprobarlo. `nMe da igual. 📚✍️",
+    "El esfuerzo vence al talento, cuando el talento no se esfuerza. 🏆",
+    "Donde no llega el talento, `nllegan los cojones. 🔥",
+    "Sin actitud no puede funcionar ningún planteamiento del mundo, `nninguno ❤️‍🔥.",
+    "Mejoraste tu setup para estudiar mejor. 🖥️📈"
 ]
 
 getRandomMessage(messages) {

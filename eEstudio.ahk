@@ -8,14 +8,11 @@
 #SingleInstance Force
 SendMode("Input")
 
-; Crear el primer escritorio virtual
+; Crear escritorio virtual
 Send("^#d")
 Sleep(500)
 
-
-; Abrir el Administrador de tareas
 Run("D:\Universidad")
-
 
 ; Abrir el navegador Brave y cargar WhatsApp Web
 Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://chatgpt.com/?model=auto"')   

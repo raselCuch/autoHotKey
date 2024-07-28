@@ -7,5 +7,3 @@
 #SingleInstance Force
 
 SendMode "Input"
-
-Send("#xga")

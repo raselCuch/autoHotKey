@@ -12,11 +12,15 @@ Run("D:\Programas\video\PotPlayer\PotPlayerMini64.exe")
 
 
 Run("D:\cursos\Docker-Autoestudio\Docker-Curso")
-Run("D:\cursos\Docker-Autoestudio")
+;Run("D:\cursos\Docker-Autoestudio")
 
 ; Abrir el navegador Brave y cargar WhatsApp Web
 Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://chatgpt.com/?model=auto"') 
 Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://www.notion.so/Docker-002afb01f68b48af82a47dbae90f62c8"')   
 Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://drive.google.com/drive/u/1/folders/1qZIpXbdRPz6ccoN7jmFVXqWyPBL_CJZr"')   
-Run("powershell.exe")
-Run("cmd.exe")
+Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://www.youtube.com/watch?v=ZvF6yKHPVRE&t=237s"')   
+Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://hub.docker.com/explore"')   
+
+
+;Run("powershell.exe")
+;Run("cmd.exe")
