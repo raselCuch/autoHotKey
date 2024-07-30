@@ -21,6 +21,5 @@ Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https
 Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://www.youtube.com/watch?v=ZvF6yKHPVRE&t=237s"')   
 Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://hub.docker.com/explore"')   
 
-
 ;Run("powershell.exe")
 ;Run("cmd.exe")

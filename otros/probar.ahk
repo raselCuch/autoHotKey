@@ -8,3 +8,8 @@
 #SingleInstance Force
 
 SendMode "Input"
+
+RCtrl:: Send "#+t"
+
+
+;Enter::MsgBox "asdfsdfasdf", "Mensaje enfurecedor", "Icon!"

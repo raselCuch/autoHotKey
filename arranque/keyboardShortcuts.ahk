@@ -7,7 +7,8 @@
 #NoTrayIcon
 #SingleInstance Force
 
-^!e::Run "D:\Toga\Modulos" ;
+;^!e::Run "D:\Toga\Modulos" ;
+^!e::Run "C:\Users\Pc\Desktop\macros\otros\Mensaje aleatorio.ahk" ;
 ^!h::Run "D:\Toga\otras habilidades" ;
 ^!u::Run "D:\Universidad" ;
 ^!1::Run "D:\cursos" ;

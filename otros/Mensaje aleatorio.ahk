@@ -4,17 +4,26 @@ SendMode("Input")
 
 ; Define el array de mensajes
 messages := [
-    "Con sangre en la mirada, `ntenle desprecio al rival. Al rival le tienes que destrozar. 😡",
-    "Con sangre en la mirada, `ntenle desprecio al rival. Al rival le tienes que destrozar. 😡",
+    "Con sangre en la mirada, `ntenle desprecio al rival. `nAl rival le tienes que destrozar. 😡",
+    "Con sangre en la mirada, `ntenle desprecio al rival. `nAl rival le tienes que destrozar. 😡",
     "Perdonaré que falles, `npero no que no te esfuerces. 💪",
-    "El Barça de Guardiola tenía mala ostia. ⚽",
-    "Configuraste teclado, mouse y laptop para programar mejor. 💻",
-    "Si algo no entiendes, ChatGPT, papi tranqui. 🤖😎",
-    "Como estudiaba el Rasel del pasado, ese curso es capaz de aprobarlo. `nMe da igual. 📚✍️",
-    "El esfuerzo vence al talento, cuando el talento no se esfuerza. 🏆",
-    "Donde no llega el talento, `nllegan los cojones. 🔥",
-    "Sin actitud no puede funcionar ningún planteamiento del mundo, `nninguno ❤️‍🔥.",
-    "Mejoraste tu setup para estudiar mejor. 🖥️📈"
+    "El Barça de Guardiola `ntenía mala ostia. 😡",
+    "Configuraste teclado, mouse y laptop `npara programar mejor. 💻",
+    "Si algo no entiendes... `nChatGPT, papi tranqui. 🤖😎",
+    "Como estudiaba el Rasel del pasado, `nese curso es capaz de aprobarlo. `nMe da igual. :< 😡",
+    "El esfuerzo vence al talento, `ncuando el talento no se esfuerza. 🏆",
+    "Donde no llega el talento, `nllegan los cojones. `nEs así. 😡",
+    "Sin actitud `nno puede funcionar ningún planteamiento del mundo, `nninguno ❤️‍🔥.",
+    "Mejoraste tu setup para estudiar mejor. 🖥️📈",
+    "No esperes condiciones perfectas para comenzar; `nel comienzo las hará perfectas. 🏁",
+    "No esperes el momento perfecto; `ntoma el momento y hazlo perfecto. 🚀",
+    "La diferencia entre lo ordinario y lo extra-ordinario es ese pequeño extra. ✨",
+    "El 80% de los resultados `nproviene del 20% de los esfuerzos. 📊",
+    "O ganas o aprendes u.u 💡",
+    "No te rindas; `nel principio siempre es difícil. 🌈",
+    "Hazlo con pasión o no lo hagas. 😡🔥",
+    "No se trata de ser el mejor, `nse trata de ser mejor que ayer. ⏳",
+    "Con el proceso llegan los objetivos. `nLos procesos se tienen que cumplir. 📈"
 ]
 
 getRandomMessage(messages) {
