@@ -87,6 +87,7 @@ Enter & p:: Send("|")
 Enter & Tab:: Send("{Escape}")
 #HotIf
 
+;----------------- BOTONES DE MOUSE -----------------
 !XButton2:: Send "{Backspace}"
 !XButton1:: Send "{Enter}"
 

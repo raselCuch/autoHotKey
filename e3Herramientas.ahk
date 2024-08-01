@@ -13,7 +13,7 @@ Send("^#d")
 Sleep(500)
 
 ; Abrir el Administrador de tareas
-Run("taskmgr.exe")
+;Run("taskmgr.exe")
 
 ; Abrir el navegador Brave y cargar WhatsApp Web
 Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://web.whatsapp.com"')

@@ -11,5 +11,8 @@ SendMode "Input"
 
 RCtrl:: Send "#+t"
 
+; Alt derecha que envíe Enter
+RAlt::Send("{Enter}")
 
-;Enter::MsgBox "asdfsdfasdf", "Mensaje enfurecedor", "Icon!"
+; Mayús que envíe Backspace
+CapsLock::Send("{Backspace}")
