@@ -23,3 +23,7 @@
 <^!m::Run  "XMouseButtonControl.exe" ; 
 <^!p::Run "PotPlayerMini64.exe" ; 
 <^!v::Run "C:\Users\Pc\AppData\Local\Programs\Microsoft VS Code\Code.exe" ; 
+
+PgUp::Send "#+t"
+;   RCtrl::Send "#+t"
+PgDn::Send "#^t"

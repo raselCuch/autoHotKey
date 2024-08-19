@@ -16,7 +16,8 @@ Sleep(500)
 ;Run("D:\Toga\otras habilidades")
 
 ; Abrir el navegador Brave y cargar WhatsApp Web
-Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://www.youtube.com/feed/playlists"')
+;Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://www.youtube.com/feed/playlists"')
+Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://music.youtube.com/"')
 ;Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://open.spotify.com/intl-es"')
 Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://chatgpt.com/?model=auto"')
 ;Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://tetris.com/play-tetris"')

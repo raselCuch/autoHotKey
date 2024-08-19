@@ -53,8 +53,15 @@ LAlt & m:: Send("{U+002B}")       ; +
 LAlt & k:: Send("{U+007B}")       ; {
 LAlt & l:: Send("{U+007D}")       ; }
 
-LAlt & v:: Send("<")
-LAlt & n:: Send(">")
+;LAlt & v:: Send("<")
+;LAlt & n:: Send(">")
+
+LAlt & c::Send "^c"
+LAlt & v::Send "^v"
+;LAlt & a::Send "^a"
+;LAlt & s::Send "^s"
+LAlt & x::Send "^x"
+LAlt & z::Send "^z"
 
 RAlt & n::Send("ñ")
 RAlt & j::Send("_")
@@ -62,15 +69,22 @@ RAlt & m::Send("=")
 RAlt & k::Send("[")
 RAlt & l::Send("]")
 RAlt & p::Send("|")
+
 RAlt & ,::Send("<")
 RAlt & .::Send(">")
+LAlt & ,::Send("<")
+LAlt & .::Send(">")
+
 RAlt & Tab::Send("{Escape}")
 
-
 RAlt & `;::Send(":")
-RAlt & '::Send("{U+0022}")
+LAlt & `;::Send(":")
 
+RAlt & '::Send("{U+0022}")
 LAlt & '::Send("{U+0022}")
+
+;RAlt & a:: Send("{U+0060}")       ; ` (backtick)
+;RAlt & s:: Send("~")
 
 ;----------------- Enter's -----------------
 LAlt & RAlt::Send("{Enter}")

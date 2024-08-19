@@ -10,9 +10,3 @@
 SendMode "Input"
 
 RCtrl:: Send "#+t"
-
-; Alt derecha que envíe Enter
-RAlt::Send("{Enter}")
-
-; Mayús que envíe Backspace
-CapsLock::Send("{Backspace}")
