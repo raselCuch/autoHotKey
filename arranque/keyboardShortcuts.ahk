@@ -11,8 +11,8 @@
 <^!e::Run "C:\Users\Pc\Desktop\macros\otros\Mensaje aleatorio.ahk" ;
 <^!h::Run "D:\Toga\otras habilidades" ;
 <^!u::Run "D:\Universidad" ;
-<^!1::Run "D:\cursos" ;
-<^!2::Run "C:\Users\Pc\Desktop\macros" ;
+;<^!1::Run "D:\cursos" ;
+;<^!2::Run "C:\Users\Pc\Desktop\macros" ;
 <^!d::Run "D:\Descargas" ;
 
 <^!c::Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://chatgpt.com/?model=auto"')

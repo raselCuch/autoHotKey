@@ -1,4 +1,5 @@
 ﻿;%programdata%\Microsoft\Windows\Start Menu\Programs\Startup
+
 ; #	Win (Windows logo key)
 ; !	Alt
 ; ^	Ctrl
@@ -9,9 +10,6 @@
 #SingleInstance Force
 
 SendMode("Input")
-
-^#n:: Send("ñ")
-^#+n:: Send("Ñ")
 
 ^#a:: Send("á")
 ^#+a:: Send("Á")
@@ -28,63 +26,83 @@ SendMode("Input")
 ^#u:: Send("ú")
 ^#+u:: Send("Ú")
 
-LAlt & a:: Send("{U+0060}")       ; ` (backtick)
-LAlt & s:: Send("~")
-
 LAlt & q:: Send("{U+0021}")       ; !
 LAlt & w:: Send("@")
 LAlt & e:: Send("{U+0023}")       ; #
 LAlt & r:: Send("$")
 LAlt & t:: Send("%")
 LAlt & y:: Send("{U+005E}")       ; ^
-
-LAlt & g:: Send("&")
-
-LAlt & h:: Send("?")
-
 LAlt & u:: Send("*")
 LAlt & i:: Send("(")
 LAlt & o:: Send(")")
 LAlt & p:: Send("\")
+LAlt & Backspace:: Send("{Delete}")
 
+
+LAlt & a:: Send("{U+0060}")       ; ` (backtick)
+LAlt & s:: Send("~")
+LAlt & d:: Send("|")
+;LAlt & f:: Send("")
+LAlt & g:: Send("&")
+LAlt & h:: Send("_")
 LAlt & j:: Send("-")
-LAlt & m:: Send("{U+002B}")       ; +
-
 LAlt & k:: Send("{U+007B}")       ; {
 LAlt & l:: Send("{U+007D}")       ; }
-
-;LAlt & v:: Send("<")
-;LAlt & n:: Send(">")
-
-LAlt & c::Send "^c"
-LAlt & v::Send "^v"
-;LAlt & a::Send "^a"
-;LAlt & s::Send "^s"
-LAlt & x::Send "^x"
-LAlt & z::Send "^z"
-
-RAlt & n::Send("ñ")
-RAlt & j::Send("_")
-RAlt & m::Send("=")
-RAlt & k::Send("[")
-RAlt & l::Send("]")
-RAlt & p::Send("|")
-
-RAlt & ,::Send("<")
-RAlt & .::Send(">")
-LAlt & ,::Send("<")
-LAlt & .::Send(">")
-
-RAlt & Tab::Send("{Escape}")
-
-RAlt & `;::Send(":")
 LAlt & `;::Send(":")
-
-RAlt & '::Send("{U+0022}")
 LAlt & '::Send("{U+0022}")
 
-;RAlt & a:: Send("{U+0060}")       ; ` (backtick)
-;RAlt & s:: Send("~")
+;LAlt & z::Send "^z"
+LAlt & x::Send("<")
+;LAlt & x::Send "^x"
+LAlt & c::Send(">")
+;LAlt & c::Send "^c"
+;LAlt & v:: Send "^v"
+;LAlt & b:: Send("<")
+LAlt & n:: Send("=")
+LAlt & m:: Send("{U+002B}")       ; +
+LAlt & ,::Send("[")
+LAlt & .::Send("]")
+LAlt & /::Send("?")
+
+; ----------------------------------------------------------------------------------
+
+RAlt & q:: Send("1")
+RAlt & w:: Send("2")
+RAlt & e:: Send("3")
+RAlt & r:: Send("4")
+RAlt & t:: Send("5")
+RAlt & y:: Send("6")
+RAlt & u:: Send("7")
+RAlt & i:: Send("{Up}")
+;RAlt & i:: Send("8")
+RAlt & o:: Send("9")
+RAlt & p:: Send("0")
+
+;RAlt & a:: Send("{Left}")
+;RAlt & s:: Send("{Down}")
+;RAlt & d:: Send("{Right}")
+;RAlt & f:: Send("{Up}")
+;RAlt & g:: Send("{Up}")
+RAlt & h:: Send("8")
+RAlt & j::Send("{Left}")
+RAlt & k::Send("{Down}")
+RAlt & l::Send("{Right}")
+;RAlt & `;::Send(":")
+;RAlt & '::Send("{U+0022}")
+
+;RAlt & z::Send(">")
+;RAlt & x::Send(">")
+;RAlt & c::Send(">")
+;RAlt & v::Send(">")
+;RAlt & b::Send(">")
+RAlt & n::Send("ñ")
+;RAlt & m::Send("=")
+;RAlt & ,::Send("<")
+;RAlt & .::Send(">")
+
+;----------------------------------------------------------------------
+
+RAlt & Tab::Send("{Escape}")
 
 ;----------------- Enter's -----------------
 LAlt & RAlt::Send("{Enter}")
@@ -93,27 +111,3 @@ RAlt & LAlt::Send("{Enter}")
 ;----------------- BOTONES DE MOUSE -----------------
 !XButton2:: Send "{Backspace}"
 !XButton1:: Send "{Enter}"
-
-;XButton2:: Send "{Shift}"
-
-#HotIf GetKeyState("LAlt")
-d & j:: Send("{Left}")
-d & l:: Send("{Right}")
-d & i:: Send("{Up}")
-d & k:: Send("{Down}")
-#HotIf
-
-#HotIf GetKeyState("LAlt")
-f & m:: Send 1
-f & ,:: Send 2
-f & .:: Send 3
-f & j:: Send 4
-f & k:: Send 5
-f & l:: Send 6
-f & u:: Send 7
-f & i:: Send 8
-f & o:: Send 9
-f & /:: Send 0
-f & n:: Send 0
-f & Backspace:: Send "{Backspace}"
-#HotIf
