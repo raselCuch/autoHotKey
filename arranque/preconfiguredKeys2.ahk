@@ -87,6 +87,17 @@ RAlt & h:: Send("8")
 RAlt & j::Send("{Left}")
 RAlt & k::Send("{Down}")
 RAlt & l::Send("{Right}")
+
+#HotIf GetKeyState("LCtrl")
+RAlt & j:: Send("^{Left}")
+RAlt & l:: Send("^{Right}")
+#HotIf
+
+#HotIf GetKeyState("RAlt")
+Shift & j:: Send("^+{Left}")
+Shift & l:: Send("^+{Right}")
+#HotIf
+
 ;RAlt & `;::Send(":")
 ;RAlt & '::Send("{U+0022}")
 
