@@ -12,5 +12,6 @@ Run("C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.3.3\bin\ide
 Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://chatgpt.com/?model=auto"') 
 Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://www.notion.so/Programaci-n-c6360689357544a6b0db8284e0141c49"')   
 Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://www.udemy.com/home/my-courses/learning/"')  
+
+Sleep(1000)
 Run "C:\Users\Pc\Desktop\macros\otros\Mensaje aleatorio.ahk"
- 
