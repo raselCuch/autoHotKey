@@ -7,23 +7,81 @@
 #NoTrayIcon
 #SingleInstance Force
 
-<^!h::Run "D:\Toga\otras habilidades" ;
-<^!u::Run "D:\Universidad" ;
-^!r::Run "D:\Descargas" ;
+; ==== ALT IZQ + [número] ====
 
-!1::Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://chatgpt.com/?model=auto"')
-!2::Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://translate.google.com/?hl=es&sl=en&tl=es&op=translate"')
-!3::Run "C:\Program Files (x86)\Skillbrains\lightshot\Lightshot.exe" ;
-!4::Send("{PrintScreen}")
-!5::Run "PotPlayerMini64.exe" ;
+; ChatGPT
+<!1::Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://chatgpt.com/?model=auto"')
 
->!b::Run "C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" ;
->!n::Run "notepad.exe" ; n
-;>!t::Run "C:\Users\Pc\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Aplicaciones de Brave\tldraw" ; 
->!v::Run "C:\Users\Pc\AppData\Local\Programs\Microsoft VS Code\Code.exe" ; 
+; Google Translate
+<!2::Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://translate.google.com/?hl=es&sl=en&tl=es&op=translate"')
 
-PgUp::Send "#+t"
-PgDn::Send "#^t"
+; Lightshot (herramienta de capturas)
+<!3::Run('"C:\Program Files\Google\Chrome\Application\chrome.exe"" "https://chatgpt.com/?model=auto"') ; "C:\Program Files (x86)\Skillbrains\lightshot\Lightshot.exe"
 
-;<^!e::Run "C:\Users\Pc\Desktop\macros\otros\Mensaje aleatorio.ahk" ;
-;<^!m::Run  "XMouseButtonControl.exe" ; 
+; Captura de pantalla directa
+<!4::Send("{PrintScreen}")
+
+; DBeaver
+<!5::Run "C:\Users\HP\AppData\Local\DBeaver\dbeaver.exe" ;
+
+; (Reservado) IntelliJ IDEA
+<!6::Run "C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin\idea64.exe" ;
+
+; Visual Studio Code
+<!7::Run "C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe" ;
+
+; Postman
+<!8::Run "C:\Users\HP\AppData\Local\Postman\Postman.exe" ;
+
+; Docker
+<!9::Run "C:\Program Files\Docker\Docker\Docker Desktop.exe" ;
+
+; Lightshot
+<!0::Run "C:\Program Files (x86)\Skillbrains\lightshot\Lightshot.exe"
+
+
+
+
+
+; ==== ALT DER + [número] ====
+; Brave vacío
+<^>!1::Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://web.whatsapp.com/"')
+
+; Bloc de notas
+<^>!2::Run "notepad.exe" ; >!     <^>
+
+; tldraw (app web)
+;<^>!3::Run "C:\Users\HP\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Aplicaciones de Brave\tldraw" ; 
+
+; Mensaje aleatorio (macro)
+;<^>!4::Run "C:\Users\HP\Desktop\macros\otros\Mensaje aleatorio.ahk" ;
+
+; XMouseButtonControl
+;<^>!5::Run  "XMouseButtonControl.exe" ; 
+
+; Carpeta: Otras habilidades
+;<^>!6::Run "D:\Toga\otras habilidades" ;
+
+; Carpeta: Universidad
+;<^>!7::Run "D:\Universidad" ;
+
+; Carpeta: Descargas
+;<^>!8::Run "D:\Descargas" ;
+
+; MySQL Workbench
+;<^>!9::Run "C:\Program Files\MySQL\MySQL Workbench 8.0 CE\MySQLWorkbench.exe" ;
+
+; WhatsApp Web
+;<^>!0::Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://web.whatsapp.com/"')
+
+
+; ==== CTRL IZQ + ALT IZQ ====
+
+; YouTube - Listas de reproducción
+<^1::Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://www.youtube.com/feed/playlists"')
+
+; Atajo personalizado: Win+Shift+T
+<^<!3::Send "#+t"
+
+; Atajo personalizado: Win+Ctrl+T
+<^<!4::Send "#^t"
