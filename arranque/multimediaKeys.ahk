@@ -14,6 +14,3 @@ F5:: Send("{Media_Stop}")
 F1:: Send("{Volume_Mute}")
 F3:: Send("{Volume_Down}")
 F4:: Send("{Volume_Up}")
-
-;Run("C:\Users\HP\Desktop\macros")
-;Run "PotPlayerMini64.exe" ;

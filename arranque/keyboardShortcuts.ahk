@@ -24,7 +24,7 @@
 ; DBeaver
 <!5::Run "C:\Users\HP\AppData\Local\DBeaver\dbeaver.exe" ;
 
-; (Reservado) IntelliJ IDEA
+; IntelliJ IDEA
 <!6::Run "C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.3\bin\idea64.exe" ;
 
 ; Visual Studio Code
@@ -43,7 +43,7 @@
 
 
 
-; ==== ALT DER + [número] ====
+; ==== ALT DER + [número] ==== agregar el opacador de pantalla, y el graduador de brillo,
 ; Brave vacío
 <^>!1::Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://web.whatsapp.com/"')
 

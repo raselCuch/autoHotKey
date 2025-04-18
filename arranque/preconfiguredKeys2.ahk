@@ -74,7 +74,7 @@ RAlt & r:: Send("4")
 RAlt & t:: Send("5")
 ;RAlt & y:: Send("6")
 ;RAlt & u:: Send("7")
-RAlt & i:: Send("{Up}")
+<^>!i:: Send("{Up}")
 ;RAlt & i:: Send("8")
 ;RAlt & o:: Send("9")
 ;RAlt & p:: Send("0")
@@ -86,21 +86,9 @@ RAlt & d:: Send("8")
 RAlt & f:: Send("9")
 RAlt & g:: Send("0")
 RAlt & h:: Send("8")
-RAlt & j::Send("{Left}")
-RAlt & k::Send("{Down}")
-RAlt & l::Send("{Right}")
-
-#HotIf GetKeyState("Ctrl")
-<^>!j:: Send("^{Left}")
-<^>!l:: Send("^{Right}")
-#HotIf
-
-#HotIf GetKeyState("RAlt")
-Shift & j:: Send("^+{Left}")
-Shift & l:: Send("^+{Right}")
-Shift & k:: Send("^+{Down}")
-Shift & i:: Send("^+{Up}")
-#HotIf
+<^>!j::Send("{Left}")
+<^>!k::Send("{Down}")
+<^>!l::Send("{Right}")
 
 ;RAlt & `;::Send(":")
 ;RAlt & '::Send("{U+0022}")
@@ -115,41 +103,14 @@ RAlt & .::Send("{End}")
 ;RAlt & ,::Send("<")
 ;RAlt & .::Send(">")
 
-;----------------------------------------------------------------------
-
-;RAlt & Tab::Send("{Escape}")
++<^>!j:: Send("^{Left}")
++<^>!l:: Send("^{Right}")
 
 ;----------------- Enter , Escape -----------------
-LAlt & RAlt::Send("{Escape}")
-RAlt & LAlt::Send("{Enter}")
-RAlt & Space:: Send("")
-LAlt & Space:: Send("")
+RAlt & Space:: Send("{Enter}")
+LAlt & Space:: Send("{Escape}")
 
 ;----------------- BOTONES DE MOUSE -----------------
 ^XButton2:: Send "{Backspace}"
 ^XButton1:: Send "{Enter}"
 ^MButton:: Send "{Delete}"
-
-;^LButton:: Send "^c"
-;^RButton:: Send "^v"
-
-#HotIf GetKeyState("LCtrl")
-LAlt & RAlt::Send("^{Enter}")
-RAlt & LAlt::Send("^{Enter}")
-#HotIf
-
-#HotIf GetKeyState("LWin")
-RAlt & i::Send("#{Up}")
-RAlt & k::Send("#{Down}")
-RAlt & j::Send("#^{Left}")
-RAlt & l::Send("#^{Right}")
-#HotIf
-
-
-;!Shift::Send("{CapsLock}")
-
-;[::Send("{Backspace}")
-;^[::Send("^{Backspace}")
-
-
-;CapsLock::Send("{Backspace}")
