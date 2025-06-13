@@ -51,13 +51,13 @@
 <^>!2::Run "notepad.exe" ; >!     <^>
 
 ; tldraw (app web)
-;<^>!3::Run "C:\Users\HP\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Aplicaciones de Brave\tldraw" ; 
+<^>!3::Run "C:\Users\HP\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Aplicaciones de Brave\tldraw" ; Twinkle Tray
 
-; Mensaje aleatorio (macro)
-;<^>!4::Run "C:\Users\HP\Desktop\macros\otros\Mensaje aleatorio.ahk" ;
+; DmScrn
+<^>!4::Run "C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Startup\DmScrn 1.1.exe" ;
 
-; XMouseButtonControl
-;<^>!5::Run  "XMouseButtonControl.exe" ; 
+; Paint
+<^>!5::Run  "mspaint.exe" ; XMouseButtonControl.exe
 
 ; Carpeta: Otras habilidades
 ;<^>!6::Run "D:\Toga\otras habilidades" ;
@@ -78,7 +78,10 @@
 ; ==== CTRL IZQ + ALT IZQ ====
 
 ; YouTube - Listas de reproducción
-<^1::Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://www.youtube.com/feed/playlists"')
+<^<!1::Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://www.youtube.com/feed/playlists"')
+
+; Atajo personalizado: Win+Shift+T
+;<^<!2::Send "#+t"
 
 ; Atajo personalizado: Win+Shift+T
 <^<!3::Send "#+t"

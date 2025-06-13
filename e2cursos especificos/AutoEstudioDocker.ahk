@@ -7,7 +7,7 @@ Send("^#d")
 Sleep(500)
 
 Run("C:\Program Files\Docker\Docker\Docker Desktop.exe")
-Run("C:\Users\Pc\AppData\Local\Programs\Microsoft VS Code\Code.exe")    
+Run("C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe")    
 Run("D:\Programas\video\PotPlayer\PotPlayerMini64.exe")
 
 Run("D:\cursos\Docker-Autoestudio\Docker-Curso")

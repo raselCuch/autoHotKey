@@ -14,4 +14,4 @@ Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https
 Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://www.udemy.com/home/my-courses/learning/"')  
 
 Sleep(1000)
-Run "C:\Users\Pc\Desktop\macros\otros\Mensaje aleatorio.ahk"
+Run "C:\Users\HP\Desktop\macros\otros\Mensaje aleatorio.ahk"

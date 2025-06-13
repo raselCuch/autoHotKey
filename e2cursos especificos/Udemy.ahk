@@ -6,7 +6,7 @@ SendMode("Input")
 Send("^#d")
 Sleep(500)
 
-Run("C:\Users\Pc\AppData\Local\Programs\Microsoft VS Code\Code.exe")   
+Run("C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\Code.exe")   
 
 ;Run("D:\cursos\trabajoFullStack")   
 
@@ -14,5 +14,5 @@ Run("C:\Users\Pc\AppData\Local\Programs\Microsoft VS Code\Code.exe")
 Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://chatgpt.com/?model=auto"') 
 Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://www.notion.so/Programaci-n-c6360689357544a6b0db8284e0141c49"')   
 Run('"C:\Program Files\BraveSoftware\Brave-Browser\Application\brave.exe" "https://www.udemy.com/home/my-courses/learning/"')  
-Run "C:\Users\Pc\Desktop\macros\otros\Mensaje aleatorio.ahk"
+Run "C:\Users\HP\Desktop\macros\otros\Mensaje aleatorio.ahk"
  
